@@ -1,3 +1,5 @@
+// 1 = positive
+// 0 = negative
 #include <iostream>
 using namespace std;
 int main (){ 
@@ -6,11 +8,12 @@ int main (){
     cout << question << endl;
     cin >> response; 
     if (response == "1"){
-        cout <<"Well done, keep moving forward";
+        cout <<"Well done, Keep moving forward Dhruv!!!";
     }
     else {
         for (int i = 0; i<23; i++){
-            cout << "You're gonna be okay Dhruv " << endl;
+            cout << "You're gonna be okay Dhruv " << endl << "********************************************"<< endl;
+            
 
         }
     }
